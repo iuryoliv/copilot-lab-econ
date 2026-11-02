@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "sqlite-econ": {
+      "type": "local",
+      "command": ".venv/bin/python",
+      "args": ["-m", "econlab.server", "sqlite-econ"],
+      "tools": ["*"]
+    },
+    "series-publicas": {
+      "type": "local",
+      "command": ".venv/bin/python",
+      "args": ["-m", "econlab.server", "series-publicas"],
+      "tools": ["*"]
+    },
+    "analytics": {
+      "type": "local",
+      "command": ".venv/bin/python",
+      "args": ["-m", "econlab.server", "analytics"],
+      "tools": ["*"]
+    },
+    "relatorios": {
+      "type": "local",
+      "command": ".venv/bin/python",
+      "args": ["-m", "econlab.server", "relatorios"],
+      "tools": ["*"]
+    }
+  }
+}

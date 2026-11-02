@@ -1,0 +1,5 @@
+{
+  "selection_url": "https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.paint?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=24364",
+  "basic_url": "https://www3.bcb.gov.br/sgspub/JSP/consultarmetadados/cmiDadosBasicos.jsp",
+  "texto": " function abrirUmc() { window.open('/sgspub/umc.html','','location=no,toolbar=no,directories=no,menubar=no,resizable=no,scrollbars=yes,status=no,width=570,height=550,left=20,top=75'); } Basic data of the series 24364 Full name Central Bank Economic Activity Index (IBC-Br) - seasonally adjusted Short name IBC-Br - seasonally adjusted Subject chain - Economic activity and price indicators - Real sector - National accounts - Gross Domestic Product (GDP) Periodicity Monthly Unit Index Source BCB-Depec Start date 1/1/2003 End date Undefined Series type COMMON Amount of spreading decimal digits 5 Max value (european format) - Min value (european format) - Proprietor manager DEPEC/GEATI/COMTE Special series? no Formula - Primitive series - Warning message "
+}

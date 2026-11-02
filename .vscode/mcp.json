@@ -1,0 +1,28 @@
+{
+  "servers": {
+    "sqlite-econ": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["-m", "econlab.server", "sqlite-econ"],
+      "env": {"ECONLAB_ROOT": "${workspaceFolder}"}
+    },
+    "series-publicas": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["-m", "econlab.server", "series-publicas"],
+      "env": {"ECONLAB_ROOT": "${workspaceFolder}"}
+    },
+    "analytics": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["-m", "econlab.server", "analytics"],
+      "env": {"ECONLAB_ROOT": "${workspaceFolder}"}
+    },
+    "relatorios": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["-m", "econlab.server", "relatorios"],
+      "env": {"ECONLAB_ROOT": "${workspaceFolder}"}
+    }
+  }
+}

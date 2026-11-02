@@ -1,0 +1,72 @@
+{
+  "phase": "04-econometria",
+  "agent": "econometrista",
+  "session_id": "08783b2a-51d4-4670-a126-0e2d5e4f2fee",
+  "process_exit": 0,
+  "result_exit": 0,
+  "calls": [
+    {
+      "name": "skill",
+      "server": null,
+      "transport": null,
+      "args": {
+        "skill": "dessazonalizacao"
+      }
+    },
+    {
+      "name": "sqlite-econ-obter_serie",
+      "server": "sqlite-econ",
+      "transport": "stdio",
+      "args": {
+        "codigo": "BCB_24364"
+      }
+    },
+    {
+      "name": "sqlite-econ-obter_serie",
+      "server": "sqlite-econ",
+      "transport": "stdio",
+      "args": {
+        "codigo": "IBGE_PMC"
+      }
+    },
+    {
+      "name": "analytics-resultados_validados",
+      "server": "analytics",
+      "transport": "stdio",
+      "args": {
+        "tipo": "atividade"
+      }
+    }
+  ],
+  "completions": [
+    {
+      "id": "call_F0VDJpqFKE3TmNoW65qtNLsH",
+      "success": true
+    },
+    {
+      "id": "call_zaVeNR4RqOy3rP8JUaqZ7NxR",
+      "success": true
+    },
+    {
+      "id": "call_DPGEgqV5FvQ0dBEjchk6cwHo",
+      "success": true
+    },
+    {
+      "id": "call_emRdPGzxY1SRihMfIbb3Xn0O",
+      "success": true
+    }
+  ],
+  "exposed_tools": [
+    "analytics-ajuste_sazonal",
+    "analytics-resultados_validados",
+    "skill",
+    "sql",
+    "sqlite-econ-consulta_sql",
+    "sqlite-econ-descrever_esquema",
+    "sqlite-econ-listar_series",
+    "sqlite-econ-obter_serie"
+  ],
+  "answer": [
+    "**Metadados conferidos e resultados existentes consultados**, sem novo ajuste, VAR ou terminal.\n\n| Série | Metadados confirmados |\n|---|---|\n| BCB_24364 | IBC-Br mensal, unidade índice, **com ajuste sazonal oficial do BCB**. |\n| IBGE_PMC | Comércio varejista, Brasil, índice **2022=100**, mensal, **sem ajuste**; tabela 8880, variável 7169, categoria 56734. |\n\nAmbas abrangem **2022-01-01 a 2025-12-01**, com 48 observações. **Não reajustar o IBC-Br:** aplicar outro filtro sobre a série já ajustada pode distorcer seus movimentos e descaracterizar o resultado oficial.\n\n**STL não equivale a X-13:** STL decompõe a série usando suavizações LOESS; X-13 emprega procedimentos distintos, com modelagem regARIMA e tratamento específico de calendário e valores atípicos. O resultado existente da PMC usa **STL aditivo, `robust=True`, `period=12`**, nessa amostra de 48 meses: é ilustrativo, não o ajuste oficial do IBGE. As estimativas de ponta dependem da amostra e podem ser revistas. X-13 não está disponível neste laboratório.\n\nEm `resultados_validados(tipo=\"atividade\")`, **2025Q4 contra 2025Q3** apresenta **PMC-STL +0,4039%** e **IBC-Br +0,4009%**, pela fórmula `100 × (média atual / média anterior − 1)`, com seis meses comuns completos. Comparam-se variações, não níveis de índices com bases distintas; trata-se da janela histórica congelada, não da conjuntura de 2026.\n\nRastreabilidade: extrações UTC BCB `2026-10-29T19:58:55.383947+00:00` e IBGE `2026-10-29T19:58:54.110576+00:00`; fontes: [BCB/SGS](https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.paint?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=24364) e [IBGE](https://servicodados.ibge.gov.br/api/v3/agregados/8880/metadados). Artefatos validados, SHA-256:\n\n```text\npmc_stl.csv\nd3ec168e91857ef4b8da0199f2be478d10487343ed670b157834e405c551a420\ntrimestres.csv\n4b514248d4ac1343a9e8be60875d1a5d54aa6320dfe97105736f10fdba08e301\n```\n\n**Rascunho — requer revisão do economista responsável.**"
+  ]
+}

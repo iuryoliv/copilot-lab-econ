@@ -1,0 +1,98 @@
+{
+  "tipo": "atividade",
+  "trimestre_anterior": "2025Q3",
+  "trimestre_atual": "2025Q4",
+  "meses": [
+    "2025-07-01",
+    "2025-08-01",
+    "2025-09-01",
+    "2025-10-01",
+    "2025-11-01",
+    "2025-12-01"
+  ],
+  "series": {
+    "PMC_STL": {
+      "media_anterior": 107.79820751708583,
+      "media_atual": 108.23355941813428,
+      "variacao_percentual": 0.4038582004987745,
+      "valores": [
+        107.65309009080829,
+        107.7982075421806,
+        107.94332491826859,
+        108.08844221954612,
+        108.23355944401261,
+        108.37867659084405
+      ]
+    },
+    "BCB_24364": {
+      "media_anterior": 108.72019333333333,
+      "media_atual": 109.15603666666665,
+      "variacao_percentual": 0.40088535530564684,
+      "valores": [
+        108.60295,
+        108.84223,
+        108.7154,
+        108.73877,
+        109.25356,
+        109.47578
+      ]
+    }
+  },
+  "metodo_pmc": "STL aditivo, robust=True, period=12",
+  "metodo_ibc": "Ajuste sazonal oficial BCB; nao reajustado",
+  "limitacoes": "STL ilustrativo, nao equivale ao X-13 nem ao ajuste oficial IBGE. Estimativas de ponta e revisoes dependem da amostra 2022-2025. Indices com bases distintas: comparar variacoes, nao niveis.",
+  "fontes": {
+    "IBGE_PMC": {
+      "codigo_serie": "IBGE_PMC",
+      "id_fonte": 2,
+      "nome": "PMC - Índice de volume de vendas no comércio varejista",
+      "unidade": "indice (2022=100)",
+      "frequencia": "M",
+      "tema": "atividade",
+      "ajuste_sazonal": "nao",
+      "categoria": 56734,
+      "categoria_oficial": "Índice de volume de vendas no comércio varejista",
+      "classificacao": 11046,
+      "extraido_em": "2026-10-29T19:58:54.110576+00:00",
+      "fim": "2025-12-01",
+      "fonte": "IBGE",
+      "inicio": "2022-01-01",
+      "metadata_sha256": "0fbf25aa1f8bc430cceb3cfeb71f1165f2636aeba04c650df7164a14d716abcf",
+      "metadata_url": "https://servicodados.ibge.gov.br/api/v3/agregados/8880/metadados",
+      "response_sha256": "8bf0c99e6a82a6b663460df698151d5ea459ddb008a7df907a60ae9f23007c70",
+      "sha256": "12828af100c2ae41d247d355927a6dfbb124ffb6bdd92cb40a072b8cdd4b5a6f",
+      "tabela": 8880,
+      "territorio": "Brasil",
+      "titulo_oficial": "PMC - Número-índice (2022=100)",
+      "url": "https://apisidra.ibge.gov.br/values/t/8880/n1/1/v/7169/p/202201,202202,202203,202204,202205,202206,202207,202208,202209,202210,202211,202212,202301,202302,202303,202304,202305,202306,202307,202308,202309,202310,202311,202312,202401,202402,202403,202404,202405,202406,202407,202408,202409,202410,202411,202412,202501,202502,202503,202504,202505,202506,202507,202508,202509,202510,202511,202512/c11046/56734?formato=json",
+      "variavel": 7169
+    },
+    "BCB_24364": {
+      "codigo_serie": "BCB_24364",
+      "id_fonte": 1,
+      "nome": "IBC-Br com ajuste sazonal",
+      "unidade": "indice",
+      "frequencia": "M",
+      "tema": "atividade",
+      "ajuste_sazonal": "sim",
+      "codigo_sgs": 24364,
+      "extraido_em": "2026-10-29T19:58:55.383947+00:00",
+      "fim": "2025-12-01",
+      "fonte": "BCB",
+      "inicio": "2022-01-01",
+      "metadata_sha256": "bfddac2e67cb88d5f101c4e37709bb0be1f601703b7aebebcbe5a8158da79c9b",
+      "metadata_url": "https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.paint?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=24364",
+      "nota_unidade": "Unidade mensal conforme pagina oficial SGS.",
+      "response_sha256": "d8b59366848f810fe838d172fffabc59ed84b95ee098bf0a752e9778ff516501",
+      "sha256": "d0d124e2f6e422ff798b2704688b1e0e50688b3b7b6d0cbe1b7fa3abc59c6ffb",
+      "titulo_oficial": "Central Bank Economic Activity Index (IBC-Br) - seasonally adjusted",
+      "unidade_oficial": "Index",
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.24364/dados?formato=json&dataInicial=01/01/2022&dataFinal=31/12/2025"
+    }
+  },
+  "gerado_em": "2026-10-29T20:54:29.681849+00:00",
+  "artefatos": {
+    "pmc_stl.csv": "d3ec168e91857ef4b8da0199f2be478d10487343ed670b157834e405c551a420",
+    "trimestres.csv": "4b514248d4ac1343a9e8be60875d1a5d54aa6320dfe97105736f10fdba08e301"
+  }
+}

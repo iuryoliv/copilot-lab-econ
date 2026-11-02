@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "econlab"
+version = "0.1.0"
+description = "Sessao 02: series publicas, SQLite e ferramentas MCP locais"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.2,<3",
+  "requests>=2.32,<3",
+  "statsmodels>=0.14,<0.15",
+  "matplotlib>=3.9,<4",
+  "mcp>=1.20,<2",
+  "python-docx>=1.1,<2",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+econlab = "econlab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

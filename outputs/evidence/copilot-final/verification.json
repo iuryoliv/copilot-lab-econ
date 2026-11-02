@@ -1,0 +1,38 @@
+{
+  "verified_at": "2026-10-29T20:17:53.604723+00:00",
+  "run": "copilot-final",
+  "executor": "GitHub Copilot CLI real autenticado",
+  "mcp_calls_from_copilot": 24,
+  "stages": 5,
+  "skills": [
+    "dessazonalizacao",
+    "graficos-padrao",
+    "nota-conjuntura"
+  ],
+  "human_approval": false,
+  "vscode_ui_validated": false,
+  "main_demo_series": 7,
+  "pimpf_only_in_cache_main_demo": true,
+  "independent_reference": {
+    "ipca_vs_13522": {
+      "pontos": 37,
+      "max_desvio_pp": 0.005158040392203086,
+      "tolerancia_pp": 0.011
+    },
+    "inflacao_csv": {
+      "celulas_conferidas_decimal": 72,
+      "tolerancia_pp": 1e-08
+    },
+    "atividade": {
+      "PMC_STL": 0.4038582004537879,
+      "BCB_24364": 0.40088535530565955
+    }
+  },
+  "png_size": [
+    1500,
+    750
+  ],
+  "docx_zip_and_text": "ok",
+  "numbers_checked": 4,
+  "outputs": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/copilot-final/outputs"
+}

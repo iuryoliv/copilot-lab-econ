@@ -1,0 +1,63 @@
+{
+  "tipo": "inflacao",
+  "metodo": "100 * (produto(1+taxa_mensal/100)-1)",
+  "pontos": 36,
+  "inicio": "2023-01-01",
+  "fim": "2025-12-01",
+  "ultimo": {
+    "BCB_433": 4.264384904568952,
+    "BCB_189": -1.0421665812810676
+  },
+  "unidade": "% em 12 meses",
+  "fontes": {
+    "BCB_433": {
+      "codigo_serie": "BCB_433",
+      "id_fonte": 1,
+      "nome": "IPCA - variacao mensal",
+      "unidade": "% a.m.",
+      "frequencia": "M",
+      "tema": "inflacao",
+      "ajuste_sazonal": "nao",
+      "codigo_sgs": 433,
+      "extraido_em": "2026-10-29T19:58:53.327262+00:00",
+      "fim": "2025-12-01",
+      "fonte": "BCB",
+      "inicio": "2022-01-01",
+      "metadata_sha256": "556daf6335deb8eb484c6200b8aa2efbff53776522d32cdfaec452f4610b0301",
+      "metadata_url": "https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.paint?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=433",
+      "nota_unidade": "Unidade mensal conforme pagina oficial SGS.",
+      "response_sha256": "197e774cfd6b7cb8fa0c79f389bf6fc8f3af9b80f1290d22793bbbf63b359a0f",
+      "sha256": "df47e49e2e92154f8ecfcedcf96c53e48cbab4a2b6613094ca752b8c9bf31401",
+      "titulo_oficial": "Broad National Consumer Price Index (IPCA)",
+      "unidade_oficial": "Monthly % var.",
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/2022&dataFinal=31/12/2025"
+    },
+    "BCB_189": {
+      "codigo_serie": "BCB_189",
+      "id_fonte": 1,
+      "nome": "IGP-M - variacao mensal",
+      "unidade": "% a.m.",
+      "frequencia": "M",
+      "tema": "inflacao",
+      "ajuste_sazonal": "nao",
+      "codigo_sgs": 189,
+      "extraido_em": "2026-10-29T19:58:53.240097+00:00",
+      "fim": "2025-12-01",
+      "fonte": "BCB",
+      "inicio": "2022-01-01",
+      "metadata_sha256": "0885c3746005c4e8b4be6cfa5a4d8f6313ea6a058d49607adf4cbf99bb1b7bfa",
+      "metadata_url": "https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.paint?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=189",
+      "nota_unidade": "Unidade mensal conforme pagina oficial SGS.",
+      "response_sha256": "0b2b023c012ad42bc63532e3222097379f89e90b409523c6add9900df588aeed",
+      "sha256": "34af9eec25a5dae7f74dbe102e07aaff0f2540208e8c0315893273a692a9dcbf",
+      "titulo_oficial": "General Price Index-Market (IGP-M)",
+      "unidade_oficial": "Monthly % var.",
+      "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.189/dados?formato=json&dataInicial=01/01/2022&dataFinal=31/12/2025"
+    }
+  },
+  "gerado_em": "2026-10-29T20:52:57.742605+00:00",
+  "artefatos": {
+    "tabela.csv": "1b69f42e96c3521e14326f834296e0acf0307f4541365c01dd129fe854e04ba4",
+    "grafico.png": "664b6248e3c5270e52886ea2f262119ee0cb7ce2a9349a7ae3f84658228f9279"
+  }
+}

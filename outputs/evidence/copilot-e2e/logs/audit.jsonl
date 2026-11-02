@@ -1,0 +1,21 @@
+{"ts": "2026-10-29T20:04:38.563616+00:00", "tool": "consulta_sql", "outcome": "ok", "linhas": 7}
+{"ts": "2026-10-29T20:04:38.588615+00:00", "tool": "status_cache", "outcome": "ok", "codigo": "IBGE_PIMPF", "proposta": "d2bcff07014afdbf02dd00f446f18f68df2df1a2f76925c46331c19cad9d9db0"}
+{"ts": "2026-10-29T20:04:50.465327+00:00", "tool": "autorizar", "outcome": "ok", "codigo": "IBGE_PIMPF", "proposta": "d2bcff07014afdbf02dd00f446f18f68df2df1a2f76925c46331c19cad9d9db0", "ator": "automated-rehearsal-NOT-human"}
+{"ts": "2026-10-29T20:04:57.032306+00:00", "tool": "consulta_sql", "outcome": "ok", "linhas": 7}
+{"ts": "2026-10-29T20:04:57.042475+00:00", "tool": "status_cache", "outcome": "ok", "codigo": "IBGE_PIMPF", "proposta": "d2bcff07014afdbf02dd00f446f18f68df2df1a2f76925c46331c19cad9d9db0"}
+{"ts": "2026-10-29T20:05:02.160371+00:00", "tool": "consulta_sql", "outcome": "ok", "linhas": 6}
+{"ts": "2026-10-29T20:05:02.169853+00:00", "tool": "ingerir_serie_cache", "outcome": "ok", "codigo": "IBGE_PIMPF", "status": "ok", "id_carga": 8, "linhas": 48, "ator": "automated-rehearsal-NOT-human"}
+{"ts": "2026-10-29T20:05:05.443883+00:00", "tool": "consulta_sql", "outcome": "ok", "linhas": 1}
+{"ts": "2026-10-29T20:05:13.235643+00:00", "tool": "consulta_sql", "outcome": "ok", "linhas": 8}
+{"ts": "2026-10-29T20:05:33.858737+00:00", "tool": "consulta_sql", "outcome": "ok", "linhas": 8}
+{"ts": "2026-10-29T20:05:35.795883+00:00", "tool": "obter_serie", "outcome": "ok", "codigo": "BCB_433", "linhas": 48}
+{"ts": "2026-10-29T20:05:35.805282+00:00", "tool": "obter_serie", "outcome": "ok", "codigo": "BCB_189", "linhas": 48}
+{"ts": "2026-10-29T20:05:35.809444+00:00", "tool": "obter_serie", "outcome": "ok", "codigo": "IBGE_PMC", "linhas": 48}
+{"ts": "2026-10-29T20:05:35.814043+00:00", "tool": "obter_serie", "outcome": "ok", "codigo": "BCB_24364", "linhas": 48}
+{"ts": "2026-10-29T20:05:38.716099+00:00", "tool": "analytics", "outcome": "ok", "pasta": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/copilot-e2e/outputs/atividade", "artefatos": ["pmc_stl.csv", "trimestres.csv"]}
+{"ts": "2026-10-29T20:05:38.892085+00:00", "tool": "analytics", "outcome": "ok", "pasta": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/copilot-e2e/outputs/inflacao", "artefatos": ["tabela.csv", "grafico.png"]}
+{"ts": "2026-10-29T20:05:41.131869+00:00", "tool": "consulta_sql", "outcome": "ok", "linhas": 6}
+{"ts": "2026-10-29T20:05:47.753227+00:00", "tool": "consulta_sql", "outcome": "ok", "linhas": 4}
+{"ts": "2026-10-29T20:06:09.660711+00:00", "tool": "obter_serie", "outcome": "ok", "codigo": "BCB_24364", "linhas": 48}
+{"ts": "2026-10-29T20:06:09.672969+00:00", "tool": "obter_serie", "outcome": "ok", "codigo": "IBGE_PMC", "linhas": 48}
+{"ts": "2026-10-29T20:06:36.270823+00:00", "tool": "renderizar_relatorio", "outcome": "ok", "markdown": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/copilot-e2e/outputs/nota_conjuntura.md", "docx": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/copilot-e2e/outputs/nota_conjuntura.docx", "status": "Rascunho — requer revisão do economista responsável", "sha256": {"nota_conjuntura.md": "dc855452bf79f8d4059565eb13041c5617543d5efe9e3f269178056b164e5388", "nota_conjuntura.docx": "84890a14cb17d28a048fd35b9d942c1038c4d110cf02727d9332db0b1615cafd"}, "numeros_conferidos": {"IPCA": 4.264384904568952, "IGPM": -1.0421665812810676, "PMC": 0.4038582004987745, "IBC": 0.40088535530564684}}

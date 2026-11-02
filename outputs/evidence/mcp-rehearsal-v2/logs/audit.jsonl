@@ -1,0 +1,17 @@
+{"ts": "2026-10-29T20:02:39.441573+00:00", "tool": "consulta_sql", "outcome": "ok", "linhas": 7}
+{"ts": "2026-10-29T20:02:39.464477+00:00", "tool": "consulta_sql", "outcome": "ok", "linhas": 6}
+{"ts": "2026-10-29T20:02:39.474436+00:00", "tool": "obter_serie", "outcome": "ok", "codigo": "BCB_433", "linhas": 48}
+{"ts": "2026-10-29T20:02:39.486656+00:00", "tool": "status_cache", "outcome": "ok", "codigo": "IBGE_PIMPF", "proposta": "81196a4a352124acedeec9626b03b38df28f5037a91c5be02be185d3c167770e"}
+{"ts": "2026-10-29T20:02:39.499521+00:00", "tool": "ingerir_serie_cache", "outcome": "error", "codigo": "IBGE_PIMPF", "erro": "Autorizacao ausente, expirada ou consumida."}
+{"ts": "2026-10-29T20:02:39.508831+00:00", "tool": "autorizar", "outcome": "ok", "codigo": "IBGE_PIMPF", "proposta": "81196a4a352124acedeec9626b03b38df28f5037a91c5be02be185d3c167770e", "ator": "automated-rehearsal-NOT-human"}
+{"ts": "2026-10-29T20:02:39.518052+00:00", "tool": "ingerir_serie_cache", "outcome": "ok", "codigo": "IBGE_PIMPF", "status": "ok", "id_carga": 8, "linhas": 48, "ator": "automated-rehearsal-NOT-human"}
+{"ts": "2026-10-29T20:02:39.524034+00:00", "tool": "ingerir_serie_cache", "outcome": "error", "codigo": "IBGE_PIMPF", "erro": "Proposta alterada: valide e autorize novamente."}
+{"ts": "2026-10-29T20:02:39.526778+00:00", "tool": "consulta_sql", "outcome": "ok", "linhas": 8}
+{"ts": "2026-10-29T20:02:39.530086+00:00", "tool": "consulta_sql", "outcome": "error", "erro": "not authorized"}
+{"ts": "2026-10-29T20:02:39.532248+00:00", "tool": "consulta_sql", "outcome": "error", "erro": "You can only execute one statement at a time."}
+{"ts": "2026-10-29T20:02:39.534413+00:00", "tool": "consulta_sql", "outcome": "error", "erro": "not authorized"}
+{"ts": "2026-10-29T20:02:39.536357+00:00", "tool": "consulta_sql", "outcome": "ok", "linhas": 1}
+{"ts": "2026-10-29T20:02:39.637120+00:00", "tool": "analytics", "outcome": "ok", "pasta": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/mcp-rehearsal-v2/outputs/inflacao", "artefatos": ["tabela.csv", "grafico.png"]}
+{"ts": "2026-10-29T20:02:39.652286+00:00", "tool": "analytics", "outcome": "ok", "pasta": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/mcp-rehearsal-v2/outputs/atividade", "artefatos": ["pmc_stl.csv", "trimestres.csv"]}
+{"ts": "2026-10-29T20:02:39.669775+00:00", "tool": "analytics", "outcome": "ok", "pasta": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/mcp-rehearsal-v2/outputs/atividade", "artefatos": ["pmc_stl.csv", "trimestres.csv"]}
+{"ts": "2026-10-29T20:02:39.727567+00:00", "tool": "renderizar_relatorio", "outcome": "ok", "markdown": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/mcp-rehearsal-v2/outputs/nota_conjuntura.md", "docx": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/mcp-rehearsal-v2/outputs/nota_conjuntura.docx", "status": "Rascunho — requer revisão do economista responsável", "sha256": {"nota_conjuntura.md": "dc855452bf79f8d4059565eb13041c5617543d5efe9e3f269178056b164e5388", "nota_conjuntura.docx": "b3bda2ee79d2b4f11d825f0e9120915c2ca237f659dee4c56de008250b98bc67"}, "numeros_conferidos": {"IPCA": 4.264384904568952, "IGPM": -1.0421665812810676, "PMC": 0.4038582004987745, "IBC": 0.40088535530564684}}

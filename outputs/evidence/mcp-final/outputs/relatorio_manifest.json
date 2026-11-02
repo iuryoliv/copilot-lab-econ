@@ -1,0 +1,15 @@
+{
+  "markdown": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/mcp-final/outputs/nota_conjuntura.md",
+  "docx": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/mcp-final/outputs/nota_conjuntura.docx",
+  "status": "Rascunho — requer revisão do economista responsável",
+  "sha256": {
+    "nota_conjuntura.md": "dc855452bf79f8d4059565eb13041c5617543d5efe9e3f269178056b164e5388",
+    "nota_conjuntura.docx": "fd3fc7631bd8f83930ed0852d3edc601ea408ea032a48984c6b382de73ed1e2b"
+  },
+  "numeros_conferidos": {
+    "IPCA": 4.264384904568952,
+    "IGPM": -1.0421665812810676,
+    "PMC": 0.4038582004987745,
+    "IBC": 0.40088535530564684
+  }
+}

@@ -1,0 +1,2 @@
+{"ts": "2026-10-29T20:02:07.196657+00:00", "tool": "consulta_sql", "outcome": "ok", "linhas": 7}
+{"ts": "2026-10-29T20:02:07.199015+00:00", "tool": "consulta_sql", "outcome": "error", "erro": "not authorized to use function: LIKE"}

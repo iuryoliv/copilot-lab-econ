@@ -1,0 +1,5 @@
+{
+  "selection_url": "https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.paint?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=433",
+  "basic_url": "https://www3.bcb.gov.br/sgspub/JSP/consultarmetadados/cmiDadosBasicos.jsp",
+  "texto": " function abrirUmc() { window.open('/sgspub/umc.html','','location=no,toolbar=no,directories=no,menubar=no,resizable=no,scrollbars=yes,status=no,width=570,height=550,left=20,top=75'); } Basic data of the series 433 Full name Broad National Consumer Price Index (IPCA) Short name Broad National Consumer Price Index (IPCA) Subject chain - Economic activity and price indicators - Price indicators - Consumer price indices - IPCA - IPCA and its main components Periodicity Monthly Unit Monthly % var. Source IBGE Start date 1/1/1980 End date Undefined Series type COMMON Amount of spreading decimal digits 2 Max value (european format) - Min value (european format) - Proprietor manager DEPEC/GEPRE/DIPRE Special series? no Formula - Primitive series - Warning message "
+}

@@ -1,0 +1,5 @@
+{
+  "selection_url": "https://www3.bcb.gov.br/sgspub/consultarmetadados/consultarMetadadosSeries.paint?method=consultarMetadadosSeriesInternet&hdOidSerieSelecionada=4189",
+  "basic_url": "https://www3.bcb.gov.br/sgspub/JSP/consultarmetadados/cmiDadosBasicos.jsp",
+  "texto": " function abrirUmc() { window.open('/sgspub/umc.html','','location=no,toolbar=no,directories=no,menubar=no,resizable=no,scrollbars=yes,status=no,width=570,height=550,left=20,top=75'); } Basic data of the series 4189 Full name Interest rate - Selic accumulated in the month in annual terms (basis 252) Short name Selic accumulated in the month in annual terms (basis 252) Subject chain - Capital and financial markets - Financial market indicators - Interest rate Periodicity Monthly Unit % p.y. Source BCB-Demab Start date 31/7/1986 End date Undefined Series type DERIVATIVE Amount of spreading decimal digits 2 Max value (european format) - Min value (european format) - Proprietor manager DEMAB/DIGER/SUEST Special series? no Formula CONVPER((MG(SERIE(11)/100+1,\"mensal\")^252-1)*100,\"mensal\",\"ultimovalor\") Primitive series 11 - Selic Warning message "
+}

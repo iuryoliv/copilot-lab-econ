@@ -1,0 +1,64 @@
+{
+  "mcpServers": {
+    "sqlite-econ": {
+      "type": "local",
+      "command": "/Users/iurymac/Projects/copilot-lab-econ/.venv/bin/python",
+      "args": [
+        "-m",
+        "econlab.server",
+        "sqlite-econ"
+      ],
+      "tools": [
+        "*"
+      ],
+      "env": {
+        "ECONLAB_ROOT": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/copilot-e2e"
+      }
+    },
+    "series-publicas": {
+      "type": "local",
+      "command": "/Users/iurymac/Projects/copilot-lab-econ/.venv/bin/python",
+      "args": [
+        "-m",
+        "econlab.server",
+        "series-publicas"
+      ],
+      "tools": [
+        "*"
+      ],
+      "env": {
+        "ECONLAB_ROOT": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/copilot-e2e"
+      }
+    },
+    "analytics": {
+      "type": "local",
+      "command": "/Users/iurymac/Projects/copilot-lab-econ/.venv/bin/python",
+      "args": [
+        "-m",
+        "econlab.server",
+        "analytics"
+      ],
+      "tools": [
+        "*"
+      ],
+      "env": {
+        "ECONLAB_ROOT": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/copilot-e2e"
+      }
+    },
+    "relatorios": {
+      "type": "local",
+      "command": "/Users/iurymac/Projects/copilot-lab-econ/.venv/bin/python",
+      "args": [
+        "-m",
+        "econlab.server",
+        "relatorios"
+      ],
+      "tools": [
+        "*"
+      ],
+      "env": {
+        "ECONLAB_ROOT": "/Users/iurymac/Projects/copilot-lab-econ/outputs/evidence/copilot-e2e"
+      }
+    }
+  }
+}
