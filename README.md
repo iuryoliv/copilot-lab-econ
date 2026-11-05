@@ -19,6 +19,10 @@ Evidencias e limites em [docs/validacao.md](docs/validacao.md).
 
 ## Preparar e reproduzir
 
+**Windows:** siga o [guia de preparacao e execucao com WSL2](docs/windows.md).
+Ele mantem Bash e `.venv/bin/python` no Linux; nao pressupoe suporte Windows
+nativo nem ensaio realizado em Windows/WSL.
+
 macOS/Linux, Python 3.13 para reproduzir o lock do ensaio; versao ensaiada: 3.13.9.
 Executar na raiz deste projeto:
 
