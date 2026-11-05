@@ -17,6 +17,11 @@ O ambiente foi executado pelo **GitHub Copilot CLI autenticado**, com os quatro
 agentes e tres skills; isso nao comprova a UI do VS Code, completions ou Ask.
 Evidencias e limites em [docs/validacao.md](docs/validacao.md).
 
+**Comece pelo [passo a passo completo do laboratorio](docs/passo-a-passo-lab.md):**
+setup, descoberta MCP, prompts para copiar, autorizacao humana externa,
+ingestao, inflacao/atividade, nota e ensaios CLI com evidencias.
+**Rascunho — requer revisão do economista responsável.**
+
 ## Preparar e reproduzir
 
 **Windows:** siga o [guia de preparacao e execucao com WSL2](docs/windows.md).
